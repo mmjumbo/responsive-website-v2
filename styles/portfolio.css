@@ -51,6 +51,11 @@ h2 {
 h3 {
   font-weight: bold;
 }
+
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -106,7 +111,8 @@ content p {
   font-size: 18px;
   color: white;
   line-height: 27px;
-  padding: 15px 30px;
+  padding
+   15px 30px;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -120,6 +126,46 @@ content p {
 .project-description {
   padding: 120px 60px;
  
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+margin: 0 20px;
+color: var(--branding-color);
+background-color: var(--secondary-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+transition: all 150ms;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -139,10 +185,20 @@ content p {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 26px;
+  }
+
  .project-description {
   padding: 0;
   text-align: center;
  } 
+
+ footer .contact-box{
+  padding: 30px 120px;
+  
+}
+
  nav a {
   font-size: 14px;
  }

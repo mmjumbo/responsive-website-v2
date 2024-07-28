@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <meta
+      name="description"
+      content="Gain insights onto the web projects designed by Patricia. Understand her wide skill set that makes her a developer in demand"
+    />
+    <title>Patricia Portfolio - Patricia Pereira</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -36,16 +40,43 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia Front-end developer Logo"
+          />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Patricia Front-end developer Logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Patricia">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Patricia - Portfolio">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia Pereira">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-4">Take a look at what I've been working on!</h1>
 
         <div class="row">
-          <div class="col-md-6 mb-4 ">
+          <div class="col-md-6 mb-4">
             <img
               src="images/content-yogurt.png"
               class="img-fluid mb-3"
-              alt="yogurt"
+              alt="Yogurt App Preview"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Frontend Developer</p>
@@ -55,21 +86,19 @@
             <img
               src="images/content-weather-app.png"
               class="img-fluid mb-3"
-              alt="yogurt"
+              alt="Weather App Preview"
             />
             <h3 class="text-center m-0">Weather App</h3>
             <p class="text-center text-muted">Frontend Developer</p>
           </div>
         </div>
 
-
-
-    <div class="row">
+        <div class="row">
           <div class="col-md-6 mb-4">
             <img
               src="images/content-dictionary.png"
               class="img-fluid mb-3"
-              alt="yogurt"
+              alt="Dictionary App Preview"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">Frontend Developer</p>
@@ -79,19 +108,67 @@
             <img
               src="images/content-translation.png"
               class="img-fluid mb-3"
-              alt="yogurt"
+              alt="Translation App preview"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">Frontend Developer</p>
           </div>
         </div>
-
-
-
-
-
-
       </div>
+
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Patricia Pereira"
+              class="btn btn-branding mt-3"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:patricia@patricia.com"
+            class="email-link mb-5"
+            title="Email Patricia"
+            >patricia@patricia.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/patricia"
+            target="_blank"
+            title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/patricia"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Patricia Pereira, and is
+          <a
+            href="https://github.com/mmjumbo/responsive-website-v2"
+            target="_blank"
+            >open-sourced</a
+          >
+          on GitHub.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
